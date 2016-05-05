@@ -1,0 +1,66 @@
+001a -> 002a
+-Added 3rd tower with AOE around the tower
+-Changed enemy Spawner so you win if all waves are gone
+-fixed some bugs.
+-added lifebars for enemies(add later armor&shield bars)
+-fixed sound/hit bug
+-added armor/shield for enemies(still need bars tho)
+-added cam movement(mousescrool to zoom, mousewheel drag to move around)
+-added upgrademanager for towers, they r clickable
+-added Tutscreen to explain the Controls
+
+002a -> 003a
+-bullets CAN now chain (see magixTower)
+-added armor/shield bars
+-towers are now placable everywhere except on the path of the mobs
+-while a tower is picked u see a green/red cube under the mouse
+-added first level
+-added rigidbody to towers so you cant build tower into tower
+-colored the map :D
+-changed speed of creeps to fit the map (for now)
+-you can now build again while upgrade can is open due to new build system
+
+003a -> 004a
+-cam starts now at 30
+-tower stats were changed to fit more
+-cant build towers out of the map anymore(changed later on for every tower)
+-some waves added to see how far we can go
+--->vers. 0031a released
+-changed UpgradeMenu so that you can now switch swiftly between towers
+-clicking on upgrade Buttons won't trigger towers under it finally :)
+notesForMe: Learn 'bout EventSystems they seem awesome!
+-holding shift for multiple tower building
+-changed upgrades for towers,more expensive 75% of buyin price, going up by 25%per buy
+--->vers. 0032a released
+-added speed upgrade
+-added Exit button (press esc for it)
+-fixed tower switch bug
+-added second level
+-added second esc but to switch between level
+-added poison system + poison tower
+-added posion effects
+--->vers. 0033a released
+-price for building going up by 25% of the build price per tower
+-build buttons setup per script
+-upgradeSize changing on zooming
+-NEXT:change build buttons when clicked(text + gray out if chosen)
+
+
+TODO:
+-add UIManager or change towerButtons with scoremanager
+-more towers -> done for now
+-more levels
+-Upgrades for towers! -> partly began, continued, 
+-Strengthening tower(like aura)
+-Slow tower
+-change spawnPos of bullets(empty gameobject on the tip probably to have a pos)
+-sound pssssht
+-destroy tower!!!11
+-UpgradeMenu scale with cam highness 420 blaze it
+
+BUGS:
+-DONT place tower if choosin another tower in the select menu--->FIXED
+
+
+FELI:
+oder en dualtower, zwischen dem periodisch ne wall entsteht
